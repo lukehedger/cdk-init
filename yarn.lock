@@ -73,6 +73,15 @@
     "@aws-cdk/cx-api" "1.31.0"
     constructs "^2.0.0"
 
+"@aws-cdk/core@1.33.1":
+  version "1.33.1"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/core/-/core-1.33.1.tgz#57b1a4365f392210935b64a580c3cb28dcdd472c"
+  integrity sha512-iR4duy20QUD+LtjhibuyScxOUbWG4ibua+Dn3RBuAx9XOca/6rBT3jtJxvLcWISWk0yy/aSc60KzkrONcW/MVQ==
+  dependencies:
+    "@aws-cdk/cloud-assembly-schema" "1.33.1"
+    "@aws-cdk/cx-api" "1.33.1"
+    constructs "^3.0.0"
+
 "@aws-cdk/cx-api@1.31.0":
   version "1.31.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/cx-api/-/cx-api-1.31.0.tgz#f1c5f500237dea8c41ce499d9b9999c63d054d59"
@@ -1276,6 +1285,11 @@ constructs@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/constructs/-/constructs-2.0.0.tgz#8cd035411254853b87c00bb9fec013c644c1c488"
   integrity sha512-5bW84vSNMZ0XuEW93OTQG+HuPfRRPzVtXcsCAjUhc5Cmm9pHds10vz+GyDTbBZZ9jsFlY+YjXpcuVyTQ7dV14w==
+
+constructs@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-3.0.1.tgz#07b9f372215717ad42758c669be9133637630104"
+  integrity sha512-CP8VF9UVsMPkZqtRzcgeX3RtMbKw1Ubqzt6fqgFGfb8rJwyIAB41WRn1i3ULtm05LrmJVYIhjGVteqEd7rWafA==
 
 convert-source-map@^1.4.0, convert-source-map@^1.6.0, convert-source-map@^1.7.0:
   version "1.7.0"
