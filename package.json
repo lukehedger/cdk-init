@@ -18,7 +18,7 @@
     "aws-cdk": "1.39.0",
     "jest": "26.0.1",
     "ts-jest": "26.0.0",
-    "typescript": "3.9.2"
+    "typescript": "3.9.3"
   },
   "dependencies": {
     "@aws-cdk/core": "1.38.0"
