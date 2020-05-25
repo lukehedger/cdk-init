@@ -84,6 +84,17 @@
     constructs "^3.0.2"
     minimatch "^3.0.4"
 
+"@aws-cdk/core@1.41.0":
+  version "1.41.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/core/-/core-1.41.0.tgz#bda0f07ea38687f699c62e02f6cb08edcfd75d23"
+  integrity sha512-6hHNpXA7tbceOKxIeVnRCKVKZe7Bf/bZ/UgqB7/XcdAxdn8HIvo/lY3cb64zqRL3b04pjsvgoF/8wU92edj/uA==
+  dependencies:
+    "@aws-cdk/cdk-assets-schema" "1.41.0"
+    "@aws-cdk/cloud-assembly-schema" "1.41.0"
+    "@aws-cdk/cx-api" "1.41.0"
+    constructs "^3.0.2"
+    minimatch "^3.0.4"
+
 "@aws-cdk/cx-api@1.38.0":
   version "1.38.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/cx-api/-/cx-api-1.38.0.tgz#2fdc3b7599e93fe905968e265afb674067ef7fd9"
