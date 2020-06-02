@@ -13,13 +13,6 @@
     "@aws-cdk/cx-api" "1.42.1"
     constructs "^3.0.2"
 
-"@aws-cdk/cdk-assets-schema@1.42.0":
-  version "1.42.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/cdk-assets-schema/-/cdk-assets-schema-1.42.0.tgz#307e25bc46385cec284197fa70ea9056f58afbd2"
-  integrity sha512-dKBKLKN1Z0HSe0lO1OOdr3m9WGYRNs+PJ0WrcFMlEHsgei+4VSvIhLozJwQFcEJd8BYTPEgAofM7mcXyJjKf/A==
-  dependencies:
-    semver "^7.2.2"
-
 "@aws-cdk/cdk-assets-schema@1.42.1":
   version "1.42.1"
   resolved "https://registry.yarnpkg.com/@aws-cdk/cdk-assets-schema/-/cdk-assets-schema-1.42.1.tgz#52411627e53e46d28b013825a54eb6bc54096b71"
@@ -33,14 +26,6 @@
   integrity sha512-sp46MAC+Hth3jDMhv0Z4GRDALSxUCIQfmQxLu/jpEM0L5qj6TT2+OrPGOZpoMJLLqS45pEdnQIOIqT/T1oGeAw==
   dependencies:
     md5 "^2.2.1"
-
-"@aws-cdk/cloud-assembly-schema@1.42.0":
-  version "1.42.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/cloud-assembly-schema/-/cloud-assembly-schema-1.42.0.tgz#8ca9bad4c74abc3f2df2882ddd58bb1ece9d51fb"
-  integrity sha512-2HX1dAvNc9eUSwJ1uXZofH5ulwPj6LeeX3vJ6plwuHBDIgmp9o3Ziaavfpk6gn2AFoiIpDdotNbKQkmKw7dDPA==
-  dependencies:
-    jsonschema "^1.2.5"
-    semver "^7.2.2"
 
 "@aws-cdk/cloud-assembly-schema@1.42.1":
   version "1.42.1"
@@ -62,17 +47,6 @@
     string-width "^4.2.0"
     table "^5.4.6"
 
-"@aws-cdk/core@1.42.0":
-  version "1.42.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/core/-/core-1.42.0.tgz#b17b0e6b8e32c9c2963dcda958c177192272c5d5"
-  integrity sha512-UJxkMLyGWRuIoyUvbU18QhUIS0HpxdGEkj0zYEQ0W4IHQz2a/SpZyvkpo/D/brderj22cViAq7ap8CZBBLSzqg==
-  dependencies:
-    "@aws-cdk/cdk-assets-schema" "1.42.0"
-    "@aws-cdk/cloud-assembly-schema" "1.42.0"
-    "@aws-cdk/cx-api" "1.42.0"
-    constructs "^3.0.2"
-    minimatch "^3.0.4"
-
 "@aws-cdk/core@1.42.1":
   version "1.42.1"
   resolved "https://registry.yarnpkg.com/@aws-cdk/core/-/core-1.42.1.tgz#4c9b8634a24a3cb7d969929a629d5e8ed5209b5c"
@@ -83,14 +57,6 @@
     "@aws-cdk/cx-api" "1.42.1"
     constructs "^3.0.2"
     minimatch "^3.0.4"
-
-"@aws-cdk/cx-api@1.42.0":
-  version "1.42.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/cx-api/-/cx-api-1.42.0.tgz#f9f9754f1caf0e2d97f7ab3a6391e2ca5ef7f117"
-  integrity sha512-yOa/AXhWuF1nXSxho8PrWfFOAUEr9qSZ2n+8hggZDDbUq8f5P1mhUARY7cNOVxW8GCtNfUmG1Wbo2NrNYtM8qw==
-  dependencies:
-    "@aws-cdk/cloud-assembly-schema" "1.42.0"
-    semver "^7.2.2"
 
 "@aws-cdk/cx-api@1.42.1":
   version "1.42.1"
