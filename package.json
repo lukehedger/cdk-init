@@ -21,6 +21,6 @@
     "typescript": "3.9.5"
   },
   "dependencies": {
-    "@aws-cdk/core": "1.45.0"
+    "@aws-cdk/core": "1.46.0"
   }
 }
