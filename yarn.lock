@@ -20,14 +20,6 @@
   dependencies:
     md5 "^2.2.1"
 
-"@aws-cdk/cloud-assembly-schema@1.48.0":
-  version "1.48.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/cloud-assembly-schema/-/cloud-assembly-schema-1.48.0.tgz#8bfc674fd7cb6562cf75a88d7ffb9ada993d4241"
-  integrity sha512-3+TSjB/3hmVfcEQ0g4hitdNqz68MpYaLZGJnoVef76pNJijGbPtVMcLP8/iZ8LiOwKtZlwH7OEzcmQzSklHuUw==
-  dependencies:
-    jsonschema "^1.2.5"
-    semver "^7.2.2"
-
 "@aws-cdk/cloud-assembly-schema@1.49.1":
   version "1.49.1"
   resolved "https://registry.yarnpkg.com/@aws-cdk/cloud-assembly-schema/-/cloud-assembly-schema-1.49.1.tgz#783c89c0521d710f841769ebe6fffc7a5b7a79a7"
@@ -48,17 +40,6 @@
     string-width "^4.2.0"
     table "^5.4.6"
 
-"@aws-cdk/core@1.48.0":
-  version "1.48.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/core/-/core-1.48.0.tgz#4dd125ab18f2772ddf79bca7f23c0654f297e486"
-  integrity sha512-nPSLI/qa9kXxuspOAYTUqf2YUy83F+6QelC9/ZYz+NVwuzGL+YTQmG5NZCzuFWyla+NZX7Med/IXxGOpRMP6WQ==
-  dependencies:
-    "@aws-cdk/cloud-assembly-schema" "1.48.0"
-    "@aws-cdk/cx-api" "1.48.0"
-    constructs "^3.0.2"
-    fs-extra "^9.0.1"
-    minimatch "^3.0.4"
-
 "@aws-cdk/core@1.49.1":
   version "1.49.1"
   resolved "https://registry.yarnpkg.com/@aws-cdk/core/-/core-1.49.1.tgz#fcbd5d10742875420fd1ed9677497f1e69e2fe2c"
@@ -69,14 +50,6 @@
     constructs "^3.0.2"
     fs-extra "^9.0.1"
     minimatch "^3.0.4"
-
-"@aws-cdk/cx-api@1.48.0":
-  version "1.48.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/cx-api/-/cx-api-1.48.0.tgz#1df4c1bcf281b755e05550b1c863541c512eedd0"
-  integrity sha512-zuL5AllIsnro2RnofJ0VpgvMaePLhJjBwY87P1yQ0BJuw3tMtmLI++WaJKj2jbzdu8eXgsHk0KwyA7yl+5DDIw==
-  dependencies:
-    "@aws-cdk/cloud-assembly-schema" "1.48.0"
-    semver "^7.2.2"
 
 "@aws-cdk/cx-api@1.49.1":
   version "1.49.1"
