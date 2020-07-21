@@ -3,48 +3,47 @@ name: CI
 on:
   pull_request:
     branches:
-    - master
+      - master
 
 jobs:
   ci:
     runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@v1
+      - uses: actions/checkout@v1
 
-    - name: Setup Node
-      uses: actions/setup-node@v1
-      with:
-        node-version: '12'
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12'
 
-    - name: Cache Node dependencies
-      uses: actions/cache@v1
-      with:
-        path: node_modules
-        key: ${{ runner.OS }}-build-${{ hashFiles('yarn.lock') }}
-        restore-keys: |
-          ${{ runner.OS }}-build-${{ env.cache-name }}-
-          ${{ runner.OS }}-build-
-          ${{ runner.OS }}-
+      - name: Cache Node dependencies
+        uses: actions/cache@v1
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-build-${{ hashFiles('yarn.lock') }}
+          restore-keys: |
+            ${{ runner.OS }}-build-${{ env.cache-name }}-
+            ${{ runner.OS }}-build-
+            ${{ runner.OS }}-
 
-    - name: Install dependencies
-      run: yarn install --no-progress --non-interactive
+      - name: Install dependencies
+        run: yarn install --no-progress --non-interactive
 
-    - name: Build
-      run: yarn build
+      - name: Build
+        run: yarn build
 
-    - name: Synth
-      run: yarn synth
+      - name: Synth
+        run: yarn synth
 
-    - name: Test
-      run: yarn test
+      - name: Test
+        run: yarn test
 
   auto-merge:
     runs-on: ubuntu-18.04
     needs:
       - ci
     steps:
-    - uses: ridedott/merge-me-action@master
-      if: github.actor == 'dependabot[bot]' || github.actor == 'dependabot-preview[bot]'
-      with:
-        GITHUB_TOKEN: "${{ secrets.TOKEN }}"
-        MERGE_METHOD: MERGE
+      - uses: ridedott/merge-me-action@master
+        with:
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          MERGE_METHOD: MERGE
