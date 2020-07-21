@@ -37,3 +37,14 @@ jobs:
 
     - name: Test
       run: yarn test
+
+  auto-merge:
+    runs-on: ubuntu-18.04
+    needs:
+      - ci
+    steps:
+    - uses: ridedott/merge-me-action@master
+      if: github.actor == 'dependabot[bot]' || github.actor == 'dependabot-preview[bot]'
+      with:
+        GITHUB_TOKEN: "${{ secrets.TOKEN }}"
+        MERGE_METHOD: MERGE
