@@ -78,6 +78,17 @@
     fs-extra "^9.0.1"
     minimatch "^3.0.4"
 
+"@aws-cdk/core@1.60.0":
+  version "1.60.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/core/-/core-1.60.0.tgz#d4c8a109bb52d9bd9ed3500a27cd2cc7a9217656"
+  integrity sha512-h6P5z6E/8ttINA9IqrFxXamHZraPj1NlCE83I5QHaWPACaVe+EJbvjU3dITDyK/+fGjmQ/1m4rFaNMyBd43mVg==
+  dependencies:
+    "@aws-cdk/cloud-assembly-schema" "1.60.0"
+    "@aws-cdk/cx-api" "1.60.0"
+    constructs "^3.0.2"
+    fs-extra "^9.0.1"
+    minimatch "^3.0.4"
+
 "@aws-cdk/cx-api@1.56.0":
   version "1.56.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/cx-api/-/cx-api-1.56.0.tgz#36bf05de73d26ecc69054855f238beaf0bf2a482"
