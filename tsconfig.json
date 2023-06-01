@@ -1,16 +1,11 @@
 {
   "compilerOptions": {
-    "declaration": true,
-    "inlineSourceMap": true,
-    "inlineSources": true,
-    "module": "commonjs",
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitReturns": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "module": "ES2022",
+    "skipLibCheck": true,
     "strict": true,
-    "target": "ES2018",
-    "typeRoots": ["./node_modules/@types"]
+    "target": "ES2022"
   },
-  "exclude": ["cdk.out"]
+  "exclude": ["**/test", "cdk.out", "node_modules"],
+  "extends": "@tsconfig/node18",
+  "include": ["stacks"]
 }

@@ -1,4 +1,18 @@
 {
-  "app": "node bin/cdk-init.js",
-  "versionReporting": false
+  "app": "npx tsx stacks",
+  "versionReporting": false,
+  "watch": {
+    "include": ["**"],
+    "exclude": [
+      "README.md",
+      "cdk*.json",
+      "**/*.d.ts",
+      "**/*.js",
+      "tsconfig.json",
+      "package*.json",
+      "yarn.lock",
+      "node_modules",
+      "test"
+    ]
+  }
 }
