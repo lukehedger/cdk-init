@@ -5,13 +5,14 @@
   "scripts": {
     "deploy": "cdk deploy",
     "destroy": "cdk destroy",
-    "synth": "cdk synth",
+    "synth": "cdk synth --quiet",
     "test": "vitest run"
   },
   "devDependencies": {
     "@tsconfig/node18": "2.0.1",
-    "aws-cdk": "2.81.0",
-    "aws-cdk-lib": "2.81.0",
+    "aws-cdk": "2.85.0",
+    "aws-cdk-lib": "2.85.0",
+    "constructs": "10.2.62",
     "tsx": "3.12.7",
     "typescript": "5.0.4",
     "vitest": "0.31.4"
